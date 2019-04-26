@@ -28,6 +28,11 @@ function nextClick(){
     window.location.href="AnotherMovieIndex.html?page=" + page;
 }
 
+function searchClick(){
+    var name_part = document.getElementById("name").value;
+    window.open("SearchResult.html?name=" + name_part);
+}
+
 let page = getParams("page")
 if(page == null || page > 10 || page < 1){
     page = 1;
