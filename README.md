@@ -24,9 +24,9 @@ AnotherMovieIndex.html
 
 ![1556241363390](C:\Users\Teng_MY\AppData\Roaming\Typora\typora-user-images\1556241363390.png)
 
-##### 其他页（第7页为例）
+##### 其他页（第5页为例）
 
-![1556241374748](C:\Users\Teng_MY\AppData\Roaming\Typora\typora-user-images\1556241374748.png)
+
 
 ##### 页面底部推荐
 
@@ -46,3 +46,12 @@ MovieDetail.html
 
 #### 搜索页
 
+SearchResult.html
+
+用户可在首页或者搜索结果页输入想要搜索的电影名称，点击搜索按钮后，对用户输入的电影名称进行模糊匹配，在新窗口加载搜索结果
+
+##### 有输入
+
+
+
+##### 无输入

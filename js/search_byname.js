@@ -40,7 +40,7 @@ if(name == null || name == ""){
                 var rating = parseFloat(average) * 6;
                 var rating_people = text.rating.rating_people;
                 var poster = text.poster;
-                var summary = text.summary.substring(0, 128) + '……';
+                var summary = text.summary.substring(0, 96) + '\n' + text.summary.substring(96, 160) + '……';
                 cs = '';
                 for (var i of text.casts) {
                     cs += i.name + ' / ';
